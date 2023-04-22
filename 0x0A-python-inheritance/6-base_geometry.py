@@ -1,9 +1,16 @@
 #!/usr/bin/python3
-"""An empty class"""
+"""
+===================================
+module with class BaseGeometry
+===================================
+"""
 
 
-class BaseGeometry():
-    """A class containing an unimplimented funct"""
+class BaseGeometry:
+    """BaseGeometry class"""
+
+    @classmethod
     def area(self):
-        """Raises an exception when called"""
+        """method for calculated area"""
+
         raise Exception("area() is not implemented")
