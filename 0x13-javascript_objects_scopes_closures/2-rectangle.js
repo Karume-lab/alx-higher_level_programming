@@ -6,9 +6,9 @@ class Rectangle {
       this.width = w;
       this.height = h;
     } else {
-      return;
+
     }
   }
 }
 
-module.exports = Rectangle
+module.exports = Rectangle;
